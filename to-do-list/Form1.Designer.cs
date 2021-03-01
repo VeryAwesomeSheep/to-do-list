@@ -159,6 +159,7 @@ namespace to_do_list
             this.Controls.Add(this.textTitle);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "To-Do List";
             this.Load += new System.EventHandler(this.Form1_Load);
